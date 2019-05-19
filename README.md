@@ -15,6 +15,7 @@ $ mvnw spring-boot:run
 
 ### API 기능명세
 **http://localhost:8080/**
+
 | API | README |
 | ------ | ------ |
 | api/tradeMax | [1번문제] 2018년, 2019년 각 연도별 합계 금액이 가장 많은 고객을 추출하는 API 개발 |
