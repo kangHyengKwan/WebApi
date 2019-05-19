@@ -17,7 +17,7 @@ $ mvnw spring-boot:run
 http://localhost:8080/swagger-ui.html
 
 ### API 기능명세
-**http://localhost:8080/**
+http://localhost:8080/
 
 | API | DESC |
 | ------ | ------ |
