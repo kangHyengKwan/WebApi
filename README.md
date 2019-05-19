@@ -26,6 +26,20 @@ $ mvnw spring-boot:run
 - [1번문제] api/tradeMax
 ![ex_screenshot](./img/tradeMax.jpg)
 
+- [2번문제] api/tradeNon
+![ex_screenshot](./img/tradeNon.jpg)
+
+- [3번문제] api/tradeMaxBkr
+![ex_screenshot](./img/tradeMaxBkr.jpg)
+
+- [4번문제] api/tradeBkr
+![ex_screenshot](./img/tradeBkr1.jpg)
+![ex_screenshot](./img/tradeBkr2.jpg)
+
+
+
+
+
 - 
 
   - Type some Markdown on the left
