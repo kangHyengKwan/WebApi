@@ -8,7 +8,7 @@ CREATE TABLE TB_TRADE (
     TR_FEE NUMERIC(16) NOT NULL,
     CANCEL_YN VARCHAR(1) NOT NULL,
     PRIMARY KEY (TR_DATE, ACCT_NO, TR_NO)
-) as SELECT * FROM CSVREAD('classpath:데이터_거래내역.csv');
+) as SELECT * FROM CSVREAD('classpath:Data_Trade.csv', null, 'charset=UTF-8');
 
 
 DROP TABLE IF EXISTS TB_INFO_ACCT;
@@ -18,7 +18,7 @@ CREATE TABLE TB_INFO_ACCT (
     ACCT_NM VARCHAR(100) NOT NULL,
     BKR_CD VARCHAR(1) NOT NULL,
     PRIMARY KEY (ACCT_NO)
-) as SELECT * FROM CSVREAD('classpath:데이터_계좌정보.csv');
+) as SELECT * FROM CSVREAD('classpath:Data_Acct.csv', null, 'charset=UTF-8');
 
 
 DROP TABLE IF EXISTS TB_INFO_BKR;
@@ -27,4 +27,4 @@ CREATE TABLE TB_INFO_BKR (
     BKR_CD VARCHAR(1) NOT NULL,
     BKR_NM VARCHAR(100) NOT NULL,
     PRIMARY KEY (BKR_CD)
-) as SELECT * FROM CSVREAD('classpath:데이터_관리점정보.csv');
+) as SELECT * FROM CSVREAD('classpath:Data_Bkr.csv', null, 'charset=UTF-8');
